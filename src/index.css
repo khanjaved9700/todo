@@ -1,0 +1,95 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.out_box{
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  background-color: rgba(88, 67, 67, 0.863);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.in_box{
+  background-color: antiquewhite;
+  width: 28%;
+  height: 85vh;
+  border-radius: 20px;
+}
+h1{
+  color: white;
+  background-color: rgba(183, 63, 238, 0.835);
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3) ;
+}
+input{
+  width: 65%;
+  height: 30px;
+  top: 10px; 
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: none;
+  border-bottom: 2px solid rgba(183, 63, 238, 0.835);;
+  text-align: center;
+  background: transparent;
+  outline: none;
+}
+button{
+  width: 40px;
+  height: 40px;
+  border: 2px;
+  background-color: rgba(183, 63, 238, 0.835);
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 0px;
+  font-weight: bolder;
+  color:white;
+  margin-left: 10px;
+}
+.in_box button{
+  margin-top: 15px;
+}
+
+ol{
+    width: 92%;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+li{
+  list-style: none;
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.fa{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(183, 63, 238, 0.835);
+  border-radius: 50%;
+  margin: 0 15px 0 7px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3) ;
+}
+button:hover{
+  background-color: darkgreen;
+}
+.fa:hover{
+  background-color:rgb(255, 0, 0);
+}
+/* ol li:nth-child(even) {  
+  color: darkgray
+}
+ol li:nth-child(odd) {  
+  color: black
+} */
